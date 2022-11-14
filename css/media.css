@@ -1,0 +1,247 @@
+@media (max-width: 1399px) {
+    .header_navbar-list {
+        column-gap: 25px;
+    }
+
+    .button_l {
+        padding: 5px 37px;
+    }
+
+    .main-title__text {
+        font-size: 36px;
+    }
+
+    .main-title__offer-text {
+        font-size: 28px;
+    }
+
+    .main-title__offer {
+        margin-top: 40px;
+    }
+
+    .main-button-block {
+        margin-top: 40px;
+    }
+
+    .card-offer-block {
+        padding: 0;
+    }
+
+    .ya-map-card-text {
+        font-size: 18px;
+    }
+
+    .footer-navlink a {
+        font-size: 18px;
+    }
+
+    .footer-social-phone a {
+        font-size: 17px;
+    }
+
+    .footer-social__wa-tg {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .header_navbar-list a {
+        font-size: 14px;
+    }
+
+    .header_button-group__phone a {
+        font-size: 18px;
+    }
+
+    .button_l {
+        /* padding: 2px 29px; */
+    }
+
+    .header_location a {
+        font-size: 14px;
+    }
+
+    .header_navbar-list {
+        column-gap: 20px;
+    }
+
+    .main-title__text {
+        font-size: 30px;
+    }
+
+    .main-title__offer-text {
+        font-size: 25px;
+    }
+
+    .card-item-offer {
+        font-size: 16px;
+    }
+
+    .section-one-title,
+    .section-two-title,
+    .section-three-title {
+        font-size: 34px;
+    }
+
+    .section-two-block-item__title-text {
+        font-size: 20px;
+    }
+
+    .section-two-block-item__offer-text {
+        font-size: 16px;
+    }
+
+    .table-striped {
+        font-size: 17px;
+    }
+
+    .accordeon-header-title {
+        font-size: 26px;
+    }
+
+    .card-item {
+        padding: 27px 0px 27px 0px;
+    }
+
+    .ya-map-card-text {}
+
+    .footer-navlink {
+        column-gap: 26px;
+    }
+
+    .footer-navlink a {
+        font-size: 16px;
+    }
+
+    .footer-logo-loc__text {
+        font-size: 14px;
+    }
+
+    .ya-map-card {
+        max-width: 45%;
+        left: 0;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .header_button-group {
+        display: none;
+    }
+
+    .header_navbar {
+        display: none;
+    }
+
+    .header_row {
+        justify-content: center;
+    }
+
+    .header_location {
+        justify-content: center;
+    }
+
+    main {
+        text-align: center;
+        margin-top: 0 !important;
+    }
+
+    .menu-bar-container {
+        display: block;
+    }
+
+    .button_l {
+        padding: 10px 29px;
+    }
+
+    .section-one_cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .section-two-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .accordeon-header-title {
+        font-size: 20px;
+    }
+
+    .mobile__d-none {
+        display: none;
+    }
+
+    .footer-social-phone a {
+        font-size: 22px;
+    }
+
+    .footer-social-phone {
+        padding-top: 25px;
+    }
+    .tabl-text-center {
+        text-align: center;
+    }
+    .footer-logo-loc__text {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .ya-map-card {
+        max-width: 60%;
+    }
+    .menu-bar {
+        justify-content: space-between;
+        column-gap: 0;
+    }
+    
+}
+
+
+@media (max-width: 575px) {
+    .menu-bar-item {
+        font-size: 12px;
+    }
+    .section-one_cards {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .card-item-title {
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .card-item-price {
+        font-size: 22px;
+    }
+    .card-item-offer {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .section-two-block-item__title-text {
+        font-size: 24px;
+    }
+    .section-two-block {
+        grid-template-columns: 1fr;
+    }
+    .section-two-block-item__offer-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .table-striped {
+        font-size: 14px;
+    }
+    .accordeon-header-title {
+        font-size: 18px;
+    }
+    .ya-map-card {
+        left: 15px;
+    }
+    .box__position {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+}
+}
